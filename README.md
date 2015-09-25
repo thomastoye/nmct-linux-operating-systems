@@ -55,7 +55,11 @@ Met Wake-on-LAN worden computers van op afstand ingeschakeld.
 
 ## Workstations
 
-We werken met thin clients.
+Er is bestaande infrastructuur. We zullen een deploymentserver opzetten om de workstations te imagen.
+
+We voorzien support voor Linux-images (voor het grootste deel van de workstations) en Windows (voor applicaties die niet anders kunnen (e.g. Microsoft Office).
+
+Voor de homedirectory van users: we zijn er nog niet aan uit. Voorstel is om met Samba te werken. Het probleem is dan hoe we dynamisch homedirs gaan aanmaken in Samba.
 
 ## Nodige software
 
@@ -77,5 +81,14 @@ Mogelijkheid, maar niet main focus.
 
 ### Printers
 
-Integreren met Active Directory of CUPS?
+Integreren met Active Directory. We werken niet met cups, omdat je dan automatisch je printers krijgt op Windows. Met CUPS is dat moeilijker.
+
+### Administratie van machines
+
+Met een ADAM-module of Raspberry Pi.
+
+### Thin client server software
+
+Een server om thin clients te bedienen.
+
 
