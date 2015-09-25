@@ -91,4 +91,8 @@ Met een ADAM-module of Raspberry Pi.
 
 Een server om thin clients te bedienen.
 
+## TCO
+
+## Voordelen certificatie
+
 
