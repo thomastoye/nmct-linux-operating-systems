@@ -36,3 +36,46 @@ Iedereen in jullie team wordt verondersteld Linux gecertificeerd te zijn. Om dui
 * Wat zijn de Linux foundation certificatie tracks op en wat wordt daar verwacht?
 * Wat is het grote verschil tussen deze 2 soorten certificatie en waarom zou je voor het ene of het andere kiezen?
 
+# Onze case
+
+Industriele bakkerij.
+
+* Aantal personeelsleden: 20 personen die regelmatig met een computer werken
+* Producten: brood, patisserie
+* Markt: voedingsindustrie
+* Er is een helpdeskmedewerker in het bedrijf
+
+## Windows Server met Active Directory
+
+Houden, niet overschakelen naar een Linuxoplossing (e.g. OpenLDAP). De Active Directory is gemakkelijker te beheren, en Linuxoplossingen (zoals Samba) kunnen we integreren met Active Directory.
+
+## Automatisatie
+
+Met Wake-on-LAN worden computers van op afstand ingeschakeld.
+
+## Workstations
+
+We werken met thin clients.
+
+## Nodige software
+
+### ERP
+
+Afwegen: de software moet werken op Linux en Windows.
+
+### VPN
+
+Het remote bedrijf moet "binnenkunnen" bij het moederbedrijf.
+
+### Access points
+
+Met Active Directory-integratie.
+
+### IP cams
+
+Mogelijkheid, maar niet main focus.
+
+### Printers
+
+Integreren met Active Directory of CUPS?
+
